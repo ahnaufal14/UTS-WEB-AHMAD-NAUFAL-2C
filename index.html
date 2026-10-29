@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Portfolio interaktif Ahmad Naufal Rifa'ah — System Administrator, Database Administrator, dan Information Security Analyst. Dashboard profil, sertifikat, dan kalkulator SLA uptime.">
+  <title>Ahmad Naufal Rifa'ah — IT Infrastructure &amp; Security Portfolio</title>
+
+  <link rel="icon" href="img/avatar.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS Framework: Tailwind (utility classes dipakai untuk layout/grid dasar,
+       detail visual & tema kustom ada di css/style.css) -->
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="titlebar">
+      <span class="dot red"></span><span class="dot amber"></span><span class="dot green"></span>
+      <span class="mono path">ahmad@portfolio:~$</span>
+    </div>
+    <div class="navrow wrap">
+      <a href="#beranda" class="brand"><span class="prompt mono">&gt;</span> Ahmad Naufal Rifa'ah</a>
+      <nav class="mainnav" id="main-nav" aria-label="Navigasi utama">
+        <a href="#beranda">Beranda</a>
+        <a href="#tentang">Tentang</a>
+        <a href="#keahlian">Keahlian</a>
+        <a href="#sertifikat">Sertifikat</a>
+        <a href="#kalkulator">Kalkulator</a>
+        <a href="#kontak">Kontak</a>
+      </nav>
+      <div class="navbtns">
+        <button id="theme-toggle" type="button">🌙 dark</button>
+        <button id="nav-toggle" type="button" aria-label="Buka menu navigasi" aria-controls="main-nav">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===================== HERO ===================== -->
+    <section id="beranda">
+      <div class="wrap hero">
+        <div>
+          <p class="cmd-heading mono"><span class="sym">$</span> nopalepale</p>
+          <p class="roles mono">System Administrator · Database Administrator · Information Security Analyst</p>
+          <h1>Ahmad Naufal Rifa'ah</h1>
+          <p class="lead">Mengelola infrastruktur server, basis data, dan keamanan sistem secara andal — dari
+            konfigurasi Linux, administrasi database, hingga audit keamanan dasar.</p>
+          <div class="btnrow">
+            <a href="#sertifikat" class="btn primary">Lihat Sertifikat</a>
+            <a href="#kontak" class="btn ghost">Hubungi Saya</a>
+          </div>
+
+          <div class="statgrid">
+            <div class="stat">
+              <div class="label mono">status</div>
+              <div class="value">ONLINE</div>
+            </div>
+            <div class="stat">
+              <div class="label mono">fokus_utama</div>
+              <div class="value">Infra &amp; Security</div>
+            </div>
+            <div class="stat">
+              <div class="label mono">sertifikasi</div>
+              <div class="value">2</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-avatar">
+          <img src="img/20251204_094552.jpg" alt="Avatar inisial Ahmad Naufal Rifa'ah" width="220" height="220">
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TENTANG ===================== -->
+    <section id="tentang">
+      <div class="wrap about-layout">
+        <div>
+          <p class="cmd-heading mono"><span class="sym">$</span> cat tentang.txt</p>
+          <h2 class="section-title">Tentang Saya</h2>
+          <p>
+            Saya adalah mahasiswa Sistem Informasi dengan minat utama pada tiga bidang yang saling
+            berkaitan: administrasi sistem, administrasi basis data, dan keamanan informasi. Saya terbiasa
+            bekerja dengan lingkungan server Linux, merancang serta memelihara basis data relasional, dan
+            menerapkan praktik dasar keamanan untuk menjaga ketersediaan serta integritas sistem.
+          </p>
+          <p>
+            Website ini sendiri dibangun sebagai bagian dari Ujian Tengah Semester mata kuliah
+            Pemrograman Web, menerapkan HTML semantik, CSS framework, dan JavaScript untuk fitur
+            interaktif seperti kalkulator estimasi uptime SLA dan validasi form kontak.
+          </p>
+        </div>
+        <aside class="sidepanel" aria-label="Info singkat">
+          <h3 class="mono">INFO SINGKAT</h3>
+          <ul>
+            <li><span>Lokasi</span><span class="ok">Kediri, ID</span></li>
+            <li><span>Program Studi</span><span class="ok">Sistem Informasi</span></li>
+            <li><span>Minat</span><span class="ok">Infra / DB / Security</span></li>
+            <li><span>Status</span><span class="ok">Open to learn</span></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===================== KEAHLIAN ===================== -->
+    <section id="keahlian">
+      <div class="wrap">
+        <p class="cmd-heading mono"><span class="sym">$</span> cat skills.conf</p>
+        <h2 class="section-title">Keahlian</h2>
+
+        <div class="skill">
+          <div class="row"><span>Linux Server Administration</span><span class="tag">sysadmin</span></div>
+          <div class="meter"><span style="width:85%"></span></div>
+        </div>
+        <div class="skill">
+          <div class="row"><span>Database Administration (MySQL / PostgreSQL)</span><span class="tag">dba</span></div>
+          <div class="meter"><span style="width:78%"></span></div>
+        </div>
+        <div class="skill">
+          <div class="row"><span>Network &amp; System Security Fundamentals</span><span class="tag">security</span>
+          </div>
+          <div class="meter"><span style="width:72%"></span></div>
+        </div>
+        <div class="skill">
+          <div class="row"><span>Monitoring &amp; Troubleshooting Infrastruktur</span><span class="tag">sysadmin</span>
+          </div>
+          <div class="meter"><span style="width:80%"></span></div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- ===================== SERTIFIKAT / PROYEK ===================== -->
+    <section id="sertifikat">
+      <div class="wrap">
+        <p class="cmd-heading mono"><span class="sym">$</span> ls -la sertifikat/</p>
+        <h2 class="section-title">Sertifikat &amp; Proyek</h2>
+
+        <div class="filterbar">
+          <input type="search" id="cert-search" placeholder="Cari sertifikat atau proyek..."
+            aria-label="Cari sertifikat atau proyek">
+          <button type="button" class="chip active" data-filter="all">Semua</button>
+          <button type="button" class="chip" data-filter="sertifikat">Sertifikat</button>
+          <button type="button" class="chip" data-filter="proyek">Proyek</button>
+        </div>
+
+        <div class="cardgrid" id="cert-grid">
+          <article class="card" data-category="sertifikat">
+            <span class="badge mono">SERTIFIKAT</span>
+            <h3>Red Hat Academy</h3>
+            <p>Sertifikasi dasar administrasi sistem berbasis Linux dari Red Hat Academy, mencakup pengelolaan server,
+              command line, dan konsep dasar infrastruktur open source.</p>
+            <a class="cert-link" href="https://drive.google.com/file/d/1CfEY_jX0lH5de1diR68s9cjJcgsUv50T/view?usp=drive_link" target="_blank" rel="noopener">Lihat Sertifikat →</a>
+          </article>
+
+          <article class="card" data-category="sertifikat">
+            <span class="badge mono">SERTIFIKAT · DICODING</span>
+            <h3>Belajar Dasar Pemrograman Web</h3>
+            <p>Sertifikat Dicoding untuk kelas Dasar Pemrograman Web, mencakup fundamental HTML, CSS, dan JavaScript
+              yang diterapkan langsung pada pembuatan website ini.</p>
+            <a class="cert-link" href="https://drive.google.com/file/d/1gHgqZb7ZrAwz1nZ4f07VxND_abDwx54W/view?usp=drive_link" target="_blank" rel="noopener">Lihat Sertifikat →</a>
+          </article>
+
+          <article class="card" data-category="proyek">
+            <span class="badge mono">PROYEK</span>
+            <h3>Interactive Personal Portfolio</h3>
+            <p>Website portfolio ini sendiri — dibangun dengan HTML semantik, Tailwind CSS, dan JavaScript untuk UTS
+              Pemrograman Web, di-deploy melalui GitHub Pages.</p>
+            <a class="cert-link" href="#kalkulator">Lihat Fitur Interaktif →</a>
+          </article>
+        </div>
+
+        <p class="empty-state" id="cert-empty">Tidak ada sertifikat atau proyek yang cocok dengan pencarian.</p>
+      </div>
+    </section>
+
+    <!-- ===================== KALKULATOR ===================== -->
+    <section id="kalkulator">
+      <div class="wrap">
+        <p class="cmd-heading mono"><span class="sym">$</span> run estimasi_uptime.sh</p>
+        <h2 class="section-title">Kalkulator Estimasi Uptime SLA</h2>
+        <p style="color:var(--text-muted); max-width:60ch; margin-top:-16px; margin-bottom:28px;">
+          Masukkan total downtime (dalam menit) selama periode tertentu untuk mengestimasi persentase
+          uptime server dan tingkatan SLA yang tercapai.
+        </p>
+
+        <form class="calc-panel" id="uptime-form" novalidate>
+          <div>
+            <div class="field">
+              <label for="downtime-minutes">Total downtime (menit)</label>
+              <input type="number" id="downtime-minutes" name="downtime-minutes" min="0" step="0.1"
+                placeholder="contoh: 15" required>
+            </div>
+            <div class="field">
+              <label for="period-days">Periode pengamatan (hari)</label>
+              <input type="number" id="period-days" name="period-days" min="1" step="1" placeholder="contoh: 30"
+                required>
+            </div>
+            <button type="submit" class="btn primary">Hitung Uptime</button>
+          </div>
+
+          <div class="result-box" aria-live="polite">
+            <div class="label mono" style="font-size:12px;color:var(--text-muted);">HASIL ESTIMASI</div>
+            <div class="value" id="uptime-result-value">—</div>
+            <div class="tier" id="uptime-result-tier">Isi form untuk melihat tingkat SLA.</div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- ===================== KONTAK ===================== -->
+    <section id="kontak">
+      <div class="wrap">
+        <p class="cmd-heading mono"><span class="sym">$</span> send mail --to ahmad</p>
+        <h2 class="section-title">Kontak</h2>
+
+        <div id="form-status" role="status"></div>
+
+        <form id="contact-form" novalidate style="max-width:560px;">
+          <div class="field">
+            <label for="name">Nama</label>
+            <input type="text" id="name" name="name" placeholder="Nama lengkap Anda">
+            <span class="error" id="name-error"></span>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="nama@email.com">
+            <span class="error" id="email-error"></span>
+          </div>
+          <div class="field">
+            <label for="message">Pesan</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tulis pesan Anda di sini..."></textarea>
+            <span class="error" id="message-error"></span>
+          </div>
+          <button type="submit" class="btn primary">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span class="mono">© <span id="year"></span> Ahmad Naufal Rifa'ah — dibangun untuk UTS Pemrograman Web</span>
+      <span class="social">
+        <a href="https://github.com/ahnaufal14" target="_blank" rel="noopener">GitHub</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
