@@ -8,8 +8,8 @@ mata kuliah **Pemrograman Web**, Program Studi Sistem Informasi, Universitas Nus
 
 ## 🔗 Tautan
 
-- **Live Demo (GitHub Pages):** `https://ahnaufal.github.io/UTS-WEB-AHMAD-NAUFAL-RIFAAH/` *(isi setelah deploy)*
-- **Repository:** `https://github.com/ahnaufal14/UTS-WEB-AHMAD-NAUFAL-RIFAAH` *(isi setelah dibuat)*
+- **Live Demo (GitHub Pages):** https://ahnaufal14.github.io/UTS-WEB-AHMAD-NAUFAL-2C/
+- **Repository:** `https://github.com/ahnaufal14/UTS-WEB-AHMAD-NAUFAL-RIFAAH` 
 
 ## 📖 Deskripsi Proyek
 
